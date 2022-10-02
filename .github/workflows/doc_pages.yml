@@ -43,7 +43,7 @@ jobs:
       #    sphinx-build -E -a –b html ../docs ../docs/_build/html
       
       - name: build docs
-      - uses: ammaraskar/sphinx-action@master
+        uses: ammaraskar/sphinx-action@master
         with:
           docs-folder: "docs/"
           build-command: "sphinx-build -b html . _build"
