@@ -1,5 +1,5 @@
 new_package
-========
+===========
 
 .. toctree::
    :maxdepth: 4

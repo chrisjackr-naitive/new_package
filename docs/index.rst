@@ -2,7 +2,7 @@
    include:: /../../README.md
 
 new_package
-========
+===========
 
 A package for doing great things!
 
