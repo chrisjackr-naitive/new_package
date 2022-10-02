@@ -1,2 +1,2 @@
-def test_func():
-    print('3')
+def func():
+    return 3
