@@ -33,6 +33,7 @@ jobs:
         run: |
           python -m pip install -U sphinx
           python -m pip install sphinx-rtd-theme
+          python -m pip install sphinx-material
           python -m pip install myst-nb 
           python -m pip install myst-parser
           python -m pip install .
