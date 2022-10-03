@@ -42,11 +42,11 @@ jobs:
       #    sphinx-apidoc -o ../docs ../src/new_package
       #    sphinx-build -E -a –b html ../docs ../docs/_build/html
       
-      #- name: build docs
-      #  uses: ammaraskar/sphinx-action@master
-      #  with:
-      #    docs-folder: "docs/"
-      #    build-command: "sphinx-build -b html . _build"
+      - name: build docs
+        uses: ammaraskar/sphinx-action@master
+        with:
+          docs-folder: "docs/"
+          build-command: "sphinx-build -b html . _build"
           
       #- name: Init new repo in dist folder and commit generated files
       #  run: |
