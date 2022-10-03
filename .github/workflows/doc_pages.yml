@@ -36,9 +36,9 @@ jobs:
           python -m pip install myst-nb 
           python -m pip install .
      
-     # Clean and build .html files from .rst      
-     - name: make docs
-       run: |
+      # Clean and build .html files from .rst      
+      - name: make docs
+        run: |
           make -C docs clean
           make -C docs html
           
