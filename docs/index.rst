@@ -21,7 +21,7 @@ A package for doing great things!
 .. warning::
    This is a warning.
 .. code:: python
-    pip install sphinx
+   pip install sphinx
 .. versionadded:: 2.0.0
    What was added in this version.
 .. versionchanged:: 2.1.0
@@ -34,9 +34,13 @@ A package for doing great things!
    List item
       Some text......
 
+.. image:: _images/smile.png
+   :align: centre
+
 .. rubric:: rubric title
 
 .. centered:: CENTRED TEXT
+
 
 .. hlist::
    :columns: 3
