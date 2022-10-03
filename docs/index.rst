@@ -20,6 +20,8 @@ A package for doing great things!
    This is a note.
 .. warning::
    This is a warning.
+.. code:: python
+    pip install sphinx
 .. versionadded:: 2.0.0
    What was added in this version.
 .. versionchanged:: 2.1.0
