@@ -24,7 +24,7 @@ sys.path.insert(2, os.path.abspath('..'))
 #    "autoapi.extension",
 extensions = [
     "myst_nb",
-    "myst_parser",
+#     "myst_parser",
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
     "sphinx.ext.autodoc"
