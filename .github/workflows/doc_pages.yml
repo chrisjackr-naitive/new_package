@@ -50,7 +50,7 @@ jobs:
       
       - name: make docs
         run: |
-          make - C docs html
+          make -C docs html
           
       #- name: Init new repo in dist folder and commit generated files
       #  run: |
