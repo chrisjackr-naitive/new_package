@@ -39,7 +39,6 @@ source_suffix = {
     '.rst': 'restructuredtext',
     '.ipynb': 'myst-nb',
     '.myst': 'myst-nb',
-    '.md': 'markdown'
 }
 
 # -- Options for HTML output -------------------------------------------------
