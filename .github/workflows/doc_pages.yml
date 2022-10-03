@@ -38,7 +38,7 @@ jobs:
      
      # Clean and build .html files from .rst      
      - name: make docs
-        run: |
+       run: |
           make -C docs clean
           make -C docs html
           
