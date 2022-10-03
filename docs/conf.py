@@ -47,4 +47,5 @@ source_suffix = {
 # a list of builtin themes.
 
 # html_theme = "sphinx_rtd_theme"
-html_theme = "sphinx_material"
+# html_theme = "sphinx_material"
+html_theme = 'press'
