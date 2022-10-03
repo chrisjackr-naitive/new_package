@@ -22,10 +22,14 @@ A package for doing great things!
    This is a warning.
    
 .. code:: python
-
+    
   def my_function():
-      "just a test"
-      print 8/2
+      "How to display code"
+      return 9
+
+.. code:: bash
+    
+  pip install sphinx
    
 .. versionadded:: 2.0.0
    What was added in this version.
@@ -39,7 +43,7 @@ A package for doing great things!
    List item
       Some text......
 
-.. image:: ./_images/smile.png
+.. image:: _images/smile.png
    :align: centre
 
 .. rubric:: rubric title
