@@ -15,7 +15,7 @@ setup(name = "new_package",
       author = "Naitive2022",
       description = "Short description...",
       long_description=read('README.md'),
-      package_dir = {"": "src"}
+      package_dir = {"": "src"},
       packages=find_packages(where='src',  # '.' by default
                              include=['new_package*']),  # ['*'] by default
                              #exclude=['new_package.tests'],  # empty by default
