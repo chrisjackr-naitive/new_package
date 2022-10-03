@@ -43,7 +43,7 @@ A package for doing great things!
    List item
       Some text......
 
-.. image:: /docs/_images/smile.png
+.. image:: ../_images/smile.png
    :align: centre
 
 .. rubric:: rubric title
