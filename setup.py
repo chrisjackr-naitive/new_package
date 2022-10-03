@@ -19,5 +19,5 @@ setup(name = "new_package",
       packages=find_packages(where='src',  # '.' by default
                              include=['new_package*']),  # ['*'] by default
                              #exclude=['new_package.tests'],  # empty by default
-      install_requires=[], 
+      install_requires=[],
      )
