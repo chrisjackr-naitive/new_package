@@ -24,18 +24,17 @@ sys.path.insert(2, os.path.abspath('..'))
 #    "autoapi.extension",
 extensions = [
     "myst_nb",
+    "myst-parser",
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
     "sphinx.ext.autodoc"
 ]
 napoleon_google_docstring = False
 
-import recommonmark
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
-source_parsers = {'.md':'recommonmark.parser.CommonMarkParser'}
 source_suffix = {
     '.rst': 'restructuredtext',
     '.ipynb': 'myst-nb',
