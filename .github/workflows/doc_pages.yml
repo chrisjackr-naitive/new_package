@@ -34,6 +34,7 @@ jobs:
           python -m pip install -U sphinx
           python -m pip install sphinx-rtd-theme
           python -m pip install myst-nb 
+          python -m pip install recommonmark
           python -m pip install .
      
       # Clean and build .html files from .rst      
