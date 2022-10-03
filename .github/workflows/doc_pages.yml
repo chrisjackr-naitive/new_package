@@ -35,6 +35,7 @@ jobs:
           python -m pip install sphinx-rtd-theme
           python -m pip install myst-nb 
           python -m pip install .
+          python -m pip install nbclient=0.6.0
       
       #sphinx-build –b html . _build/html
       #- name: build documentation
