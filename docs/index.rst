@@ -1,11 +1,7 @@
-..
-   include:: /../../README.md
-
 new_package
 ===========
 
 A package for doing great things!
-
 
 .. toctree::
    :maxdepth: 3
@@ -15,6 +11,8 @@ A package for doing great things!
 
    modules
    example.ipynb
+
+.. include:: ../README.md
 
 .. note::
    This is a note.
