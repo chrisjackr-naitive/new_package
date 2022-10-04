@@ -30,8 +30,8 @@ Contents
 
 :raw-html-m2r:`<br>`
 
-Package_Description
--------------------
+Description
+-----------
 
 Short package description. This is a test package to help develop the package template and GitHub workflows.\
 This package was created using the ``native_package_cookiecutter`` `template <https://github.com/chrisjackr-naitive/package_template>`_.
@@ -44,24 +44,22 @@ Installation
 The best way to install the package is to clone the repository and then install the local version in editable mode.\
 This allows any changes to the package to be immediately reflected directly in your environment.
 
-..
 
-   * clone repository
-     .. code-block:: bash
+* clone repository
+  .. code-block:: bash
 
-        $ git clone git@github.com:chrisjackr-naitive/new_package.git
+     $ git clone git@github.com:chrisjackr-naitive/new_package.git
 
-   * activate virtual environment
-     .. code-block:: bash
+* activate virtual environment
+  .. code-block:: bash
 
-        $ conda activate env
+     $ conda activate env
 
-   * cwd to package root and install
-     .. code-block:: bash
+* cwd to package root and install
+  .. code-block:: bash
 
-        $ cd new_package
-        $ (env) pip install -e .
-
+     $ cd new_package
+     $ (env) pip install -e .
 
 :raw-html-m2r:`<br>`
 
@@ -72,7 +70,7 @@ No usage instructions.
 
 ..
 
-   View :raw-html-m2r:`<a href=https://chrisjackr-naitive.github.io/new_package/index.html>**package documentation**</a>`.
+   View :raw-html-m2r:`<a href=https://chrisjackr-naitive.github.io/new_package/index.html>package documentation</a>`.
 
 
 :raw-html-m2r:`<br>`
@@ -85,4 +83,4 @@ No diagrams currently.
 :raw-html-m2r:`<br>`
 :raw-html-m2r:`<br>`
 
-&copy; Naitive Technologies 2022
+Copyright Naitive Technologies 2022
