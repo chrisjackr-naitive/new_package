@@ -1,5 +1,7 @@
 # new_package
 
+[![python-pytest](https://github.com/chrisjackr-naitive/new_package/actions/workflows/python-test.yml/badge.svg)](https://github.com/chrisjackr-naitive/new_package/actions/workflows/python-test.yml)
+
 A package for doing great things!
 
 ## Installation
