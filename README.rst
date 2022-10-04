@@ -10,9 +10,9 @@ new_package
    :target: https://github.com/chrisjackr-naitive/new_package/actions/workflows/python-test.yml
    :alt: python-pytest
  
-.. image:: https://github.com/chrisjackr-naitive/new_package/actions/workflows/doc_pages.yml/badge.svg
-   :target: https://github.com/chrisjackr-naitive/new_package/actions/workflows/doc_pages.yml
-   :alt: docs_pages_workflow
+.. image:: https://github.com/chrisjackr-naitive/new_package/actions/workflows/pages-build-docs.yml/badge.svg
+   :target: https://github.com/chrisjackr-naitive/new_package/actions/workflows/pages-build-docs.yml
+   :alt: pages-build-docs
  
 .. image:: https://github.com/chrisjackr-naitive/new_package/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages
    :target: https://github.com/chrisjackr-naitive/new_package/actions/workflows/pages/pages-build-deployment
