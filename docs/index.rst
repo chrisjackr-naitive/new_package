@@ -7,15 +7,8 @@
    :hidden:
 
    modules
-   
-.. toctree::
-   :maxdepth: 1
-   :caption: Notebooks:
-   :titlesonly:
-   :hidden:
-
-   example.ipynb
    example1.ipynb
+   example2.ipynb
    
 Indices and tables
 ------------------
