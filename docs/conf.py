@@ -48,4 +48,4 @@ source_suffix = {
 
 # html_theme = "sphinx_rtd_theme"
 # html_theme = "sphinx_material"
-html_theme = 'press'
+html_theme = 'renku'
