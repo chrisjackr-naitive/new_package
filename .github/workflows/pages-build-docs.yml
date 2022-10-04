@@ -1,6 +1,6 @@
 # This workflow upload documentation
 
-name: docs-pages-workflow
+name: pages-build-docs
 
 # Controls when the workflow will run
 on:
