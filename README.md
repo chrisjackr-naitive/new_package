@@ -1,8 +1,6 @@
 # new_package
 
-[![python-pytest](https://github.com/chrisjackr-naitive/new_package/actions/workflows/python-test.yml/badge.svg)](https://github.com/chrisjackr-naitive/new_package/actions/workflows/python-test.yml)
-
-[![pages-build-deployment](https://github.com/chrisjackr-naitive/new_package/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/chrisjackr-naitive/new_package/actions/workflows/pages/pages-build-deployment)
+[![python-pytest](https://github.com/chrisjackr-naitive/new_package/actions/workflows/python-test.yml/badge.svg)](https://github.com/chrisjackr-naitive/new_package/actions/workflows/python-test.yml)[![docs_pages_workflow](https://github.com/chrisjackr-naitive/new_package/actions/workflows/doc_pages.yml/badge.svg)](https://github.com/chrisjackr-naitive/new_package/actions/workflows/doc_pages.yml)[![pages-build-deployment](https://github.com/chrisjackr-naitive/new_package/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/chrisjackr-naitive/new_package/actions/workflows/pages/pages-build-deployment)
 
 ## Contents
 - [Description](#description)
