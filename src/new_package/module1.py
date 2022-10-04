@@ -1,3 +1,4 @@
+from scipy.constants import golden
 def func(a=1, b=1):
     """Summary line.
 
@@ -16,4 +17,4 @@ def func(a=1, b=1):
         Description of return value
 
     """
-    return 3
+    return golden
