@@ -7,8 +7,8 @@
    :hidden:
 
    modules
-   example1.ipynb
-   example2.ipynb
+   example1
+   example2
    
 Indices and tables
 ------------------
