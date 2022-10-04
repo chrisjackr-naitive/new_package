@@ -2,6 +2,8 @@
 
 [![python-pytest](https://github.com/chrisjackr-naitive/new_package/actions/workflows/python-test.yml/badge.svg)](https://github.com/chrisjackr-naitive/new_package/actions/workflows/python-test.yml)
 
+[![pages-build-deployment](https://github.com/chrisjackr-naitive/new_package/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/chrisjackr-naitive/new_package/actions/workflows/pages/pages-build-deployment)
+
 ## Contents
 - [Description](#description)
 - [Installation](#installation)
