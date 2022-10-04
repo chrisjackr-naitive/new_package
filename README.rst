@@ -2,6 +2,12 @@
 new_package
 ===========
 
+
+.. image:: https://github.com/chrisjackr-naitive/new_package/actions/workflows/python-test.yml/badge.svg
+   :target: https://github.com/chrisjackr-naitive/new_package/actions/workflows/python-test.yml
+   :alt: python-pytest
+
+
 A package for doing great things!
 
 Installation
