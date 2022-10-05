@@ -45,24 +45,26 @@ The best way to install the package is to clone the repository and then install 
 This allows any changes to the package to be immediately reflected directly in your environment.
 
 
-* clone repository
-  :raw-html-m2r:`<br>`
-  .. code-block:: bash
+* clone repository \
 
-     $ git clone git@github.com:chrisjackr-naitive/new_package.git
+.. code-block:: bash
 
-* activate virtual environment
-  :raw-html-m2r:`<br>`
-  .. code-block:: bash
+   $ git clone git@github.com:chrisjackr-naitive/new_package.git
 
-     $ conda activate env
 
-* cwd to package root and install
-  :raw-html-m2r:`<br>`
-  .. code-block:: bash
+* activate virtual environment \
 
-     $ cd new_package
-     $ (env) pip install -e .
+.. code-block:: bash
+
+   $ conda activate env
+
+
+* cwd to package root and install \
+
+.. code-block:: bash
+
+   $ cd new_package
+   $ (env) pip install -e .
 
 :raw-html-m2r:`<br>`
 

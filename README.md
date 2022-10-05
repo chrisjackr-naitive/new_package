@@ -20,18 +20,20 @@ This package was created using the `native_package_cookiecutter` [template](http
 The best way to install the package is to clone the repository and then install the local version in editable mode.\
 This allows any changes to the package to be immediately reflected directly in your environment.
 
-* clone repository
-<br>
+* clone repository \\
+
 ```bash
 $ git clone git@github.com:chrisjackr-naitive/new_package.git
 ```
-* activate virtual environment
-<br>
+
+* activate virtual environment \\
+
 ```bash
 $ conda activate env
 ```
-* cwd to package root and install
-<br>
+
+* cwd to package root and install \\
+
 ```bash
 $ cd new_package
 $ (env) pip install -e .
