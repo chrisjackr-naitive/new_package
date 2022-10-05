@@ -45,17 +45,17 @@ The best way to install the package is to clone the repository and then install 
 This allows any changes to the package to be immediately reflected directly in your environment.
 
 
-* clone repository
+* clone repository \
   .. code-block:: bash
 
      $ git clone git@github.com:chrisjackr-naitive/new_package.git
 
-* activate virtual environment
+* activate virtual environment \
   .. code-block:: bash
 
      $ conda activate env
 
-* cwd to package root and install
+* cwd to package root and install \
   .. code-block:: bash
 
      $ cd new_package
