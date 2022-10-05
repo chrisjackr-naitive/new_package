@@ -32,7 +32,7 @@ $ git clone git@github.com:chrisjackr-naitive/new_package.git
 $ conda activate env
 ```
 
-* cwd to package root and install \\
+* cd to package root and install \\
 
 ```bash
 $ cd new_package

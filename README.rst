@@ -59,7 +59,7 @@ This allows any changes to the package to be immediately reflected directly in y
    $ conda activate env
 
 
-* cwd to package root and install \
+* cd to package root and install \
 
 .. code-block:: bash
 
