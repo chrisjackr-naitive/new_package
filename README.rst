@@ -46,16 +46,19 @@ This allows any changes to the package to be immediately reflected directly in y
 
 
 * clone repository \
+
   .. code-block:: bash
 
      $ git clone git@github.com:chrisjackr-naitive/new_package.git
 
 * activate virtual environment \
+
   .. code-block:: bash
 
      $ conda activate env
 
 * cwd to package root and install \
+
   .. code-block:: bash
 
      $ cd new_package
