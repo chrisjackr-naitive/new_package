@@ -1,0 +1,18 @@
+name: Run on Command
+
+on:
+  workflow_dispatch:
+
+jobs:
+  print-messages:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Step 1 - Print Hello
+        run: echo "Hello from Step 1!"
+
+      - name: Step 2 - Print How are you?
+        run: echo "How are you doing in Step 2?"
+
+      - name: Step 3 - Print Goodbye
+        run: echo "Goodbye from Step 3!"
