@@ -1,6 +1,4 @@
 import time
 
-print("step2")
-for i in range(5):
-    print("............ {i}")
-    time.sleep(2)
+time.sleep(5)
+print("Segmenting Metalwork...")

@@ -1,6 +1,4 @@
 import time
 
-print("step3")
-for i in range(5):
-    print("............ {i}")
-    time.sleep(2)
+time.sleep(5)
+print("Identifying Hip ROI...")

@@ -11,11 +11,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Step 1 - Run step1.py
-        run: python3 step1.py
+      - name: 1. DICOM Loading
+        run: |
+          python3 step1.py
+          python3 step1-1.py
 
-      - name: Step 2 - Run step2.py
+      - name: 2. Implant Segmentation
         run: python3 step2.py
 
-      - name: Step 3 - Run step3.py
+      - name: 3. Hip ROI Identification
         run: python3 step3.py
