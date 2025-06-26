@@ -7,12 +7,15 @@ jobs:
   print-messages:
     runs-on: ubuntu-latest
 
-    steps:
-      - name: Step 1 - Print Hello
-        run: echo "Hello from Step 1!"
+     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Step 2 - Print How are you?
-        run: echo "How are you doing in Step 2?"
+      - name: Step 1 - Run step1.py
+        run: python3 step1.py
 
-      - name: Step 3 - Print Goodbye
-        run: echo "Goodbye from Step 3!"
+      - name: Step 2 - Run step2.py
+        run: python3 step2.py
+
+      - name: Step 3 - Run step3.py
+        run: python3 step3.py
