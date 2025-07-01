@@ -1,6 +1,6 @@
 import time
 
 time.sleep(5)
-print("Loading DICOM Image...")
+print("\nLoading DICOM Image...")
 print("(✓) Hip DICOM loaded.")
-print(" <-- Continue processing -->")
+print("\n <-- Continue processing -->")
