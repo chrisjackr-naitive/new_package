@@ -1,10 +1,10 @@
-name: Run on Command
+name: Execute OsteoSight
 
 on:
   workflow_dispatch:
 
 jobs:
-  print-messages:
+  execute-osteosight:
     runs-on: ubuntu-latest
 
     steps:
