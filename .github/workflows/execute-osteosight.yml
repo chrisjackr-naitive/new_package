@@ -11,13 +11,35 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: 1. DICOM Loading
+      - name: 1. Load DICOM
         run: |
-          python3 step1.py
-          python3 step1-1.py
+          echo Initiate DICOM Loading:
+          python3 step010.py
 
-      - name: 2. Implant Segmentation
-        run: python3 step2.py
+      - name: 2. Implant detection
+        run: |
+          echo Initiate implant segmentation:
+          python3 step020.py
+          python3 step021.py
 
       - name: 3. Hip ROI Identification
-        run: python3 step3.py
+        run: |
+          echo Initiate Hip ROI Identification:
+          python3 step030.py
+          python3 step031.py
+
+      - name: 4. Proximal Femur Segmentation
+        run: |
+          echo Initiate proximal femur segmentation:
+          python3 step040.py
+
+      - name: 5. Femoral Features Extraction
+        run: |
+          echo Initiate femoral feature extraction:
+          python3 step050.py
+          python3 step051.py
+
+      - name: 6. Proximal Femur ROI Generation
+        run: |
+          echo Initiate PFROI generation:
+          python3 step060.py
