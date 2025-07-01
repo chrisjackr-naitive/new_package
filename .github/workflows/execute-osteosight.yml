@@ -13,33 +13,33 @@ jobs:
 
       - name: 1. Load DICOM
         run: |
-          echo Initiate DICOM Loading:
+          echo  
           python3 step010.py
 
       - name: 2. Implant detection
         run: |
-          echo Initiate implant segmentation:
+          echo  
           python3 step020.py
           python3 step021.py
 
       - name: 3. Hip ROI Identification
         run: |
-          echo Initiate Hip ROI Identification:
+          echo  
           python3 step030.py
           python3 step031.py
 
       - name: 4. Proximal Femur Segmentation
         run: |
-          echo Initiate proximal femur segmentation:
+          echo  
           python3 step040.py
 
       - name: 5. Femoral Features Extraction
         run: |
-          echo Initiate femoral feature extraction:
+          echo  
           python3 step050.py
           python3 step051.py
 
       - name: 6. Proximal Femur ROI Generation
         run: |
-          echo Initiate PFROI generation:
+          echo  
           python3 step060.py
