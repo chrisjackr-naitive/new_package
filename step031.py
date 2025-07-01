@@ -1,7 +1,7 @@
 import time
 
 time.sleep(5)
-print("Generating Hip ROI...")
-print("(✓) Hip ROI generated.")
-print("")
-print("\n <-- Continue processing -->")
+print("> Generating Hip ROI...")
+print("> (✓) Hip ROI generated.")
+print("> ")
+print("> -- Continue processing --")

@@ -1,7 +1,7 @@
 import time
 
 time.sleep(5)
-print("Calculating femoral shaft axis angle...")
-print("(✓) Femoral shaft axis angle calculated.")
-print("")
-print("\n <-- Continue processing -->")
+print("> Calculating femoral shaft axis angle...")
+print("> (✓) Femoral shaft axis angle calculated.")
+print("> ")
+print("> -- Continue processing --")
