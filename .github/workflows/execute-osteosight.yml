@@ -43,3 +43,8 @@ jobs:
         run: |
           echo  
           python3 step060.py
+
+      - name: 7. BMD Inference
+        run: |
+          echo  
+          python3 step070.py
